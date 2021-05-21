@@ -16,4 +16,4 @@ enter c2
 total
 9
 average
-3otal and average
+3
