@@ -1,0 +1,34 @@
+#inclue<bits/stdc++.h>
+using namespace std;
+int main()
+{
+//map in cpp which contains keys and values
+map<int,int>mpp;
+int arr[10]={1,2,1,3,2,4,5,3,5};
+for(int i=0;i<10;i++)
+{
+mpp[arr[i]]++;
+}
+for(auto it:mpp)
+{
+cout<<it.first<<" "<<it.second<<"\n";
+}
+vector<int>ve;
+sort(ve.begin(),ve.end(),greater<int>)
+}
+UNORDERED MAP
+#inclue<bits/stdc++.h>
+using namespace std;
+int main()
+{
+//map in cpp which contains keys and values
+unordered_map<int,int>mpp;
+int arr[10]={1,2,1,3,2,4,5,3,5};
+for(int i=0;i<10;i++)
+{
+mpp[arr[i]]++;
+}
+for(auto it:mpp)
+{
+cout<<it.first<<" "<<it.second<<"\n";
+}
